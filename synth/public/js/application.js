@@ -1,6 +1,28 @@
 var AudioContext = window.AudioContext || window.webkitAudioContext;
 var audioCtx = new AudioContext();
 
+// var pad1 = audioCtx.createOscillator();
+// pad1.frequency.value = 261.63; //C4 green
+// var pad2 = audioCtx.createOscillator();
+// pad2.frequency.value = 293.67; //D4 dark blue
+// var pad3 = audioCtx.createOscillator();
+// pad3.frequency.value = 329.63; //E4 purple/blue
+// var pad4 = audioCtx.createOscillator();
+// pad4.frequency.value = 349.23; //F4 rust
+// var pad5 = audioCtx.createOscillator();
+// pad5.frequency.value = 392; //G4 peach
+// var pad6 = audioCtx.createOscillator();
+// pad6.frequency.value = 440; //A4 light blue green
+// var pad7 = audioCtx.createOscillator();
+// pad7.frequency.value = 493.88; //B4 dark maroon
+// var pad8 = audioCtx.createOscillator();
+// pad8.frequency.value = 523.20; //C5 light blue/green
+
+// var playNote = function(pad) {
+//   pad.start();
+//   pad.connect(audioCtx.destination);
+//   setTimeout(function(){pad.stop()}, 500);
+// };
 
 $(document).ready(function() {
 	$("#pad1").on("click", function() {
