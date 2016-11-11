@@ -56,7 +56,6 @@ z.frequency.value = 932.328; //Bflat5
 var exclamation = audioCtx.createOscillator(); //49
 exclamation.frequency.value = 987.767 //B5
 
-
 $(document).ready(function() {
   $("textarea").on("keyup", function(event) {
     console.log("success");
