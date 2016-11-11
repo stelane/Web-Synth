@@ -4,7 +4,6 @@ var audioCtx = new AudioContext();
 
 $(document).ready(function() {
 	$("#pad1").on("click", function() {
-		console.log("success");
 		var pad1 = audioCtx.createOscillator();
 		pad1.frequency.value = 261.63; //C4 green
 		pad1.type = "sine";
@@ -14,7 +13,6 @@ $(document).ready(function() {
 	});
 
 	$("#pad2").on("click", function() {
-		console.log("success");
 		var pad2 = audioCtx.createOscillator();
 		pad2.frequency.value = 293.67; //D4 dark blue
 		pad2.type = "sine";
@@ -24,7 +22,6 @@ $(document).ready(function() {
 	});
 
 	$("#pad3").on("click", function() {
-		console.log("success");
 		var pad3 = audioCtx.createOscillator();
 		pad3.frequency.value = 329.63; //E4 purple/blue
 		pad3.type = "sine";
@@ -34,7 +31,6 @@ $(document).ready(function() {
 	});
 
 	$("#pad4").on("click", function() {
-		console.log("success");
 		var pad4 = audioCtx.createOscillator();
 		pad4.frequency.value = 349.23; //F4 rust
 		pad4.type = "sine";
@@ -44,7 +40,6 @@ $(document).ready(function() {
 	});
 
 	$("#pad5").on("click", function() {
-		console.log("success");
 		var pad5 = audioCtx.createOscillator();
 		pad5.frequency.value = 392; //G4 peach
 		pad5.type = "sine";
@@ -54,7 +49,6 @@ $(document).ready(function() {
 	});
 
 	$("#pad6").on("click", function() {
-		console.log("success");
 		var pad6 = audioCtx.createOscillator();
 		pad6.frequency.value = 440; //A4 light blue green
 		pad6.type = "sine";
@@ -64,7 +58,6 @@ $(document).ready(function() {
 	});
 
 	$("#pad7").on("click", function() {
-		console.log("success");
 		var pad7 = audioCtx.createOscillator();
 		pad7.frequency.value = 493.88; //B4 dark maroon
 		pad7.type = "sine";
@@ -74,7 +67,6 @@ $(document).ready(function() {
 	});
 
 	$("#pad8").on("click", function() {
-		console.log("success");
 		var pad8 = audioCtx.createOscillator();
 		pad8.frequency.value = 523.20; //C5 light blue/green
 		pad8.type = "sine";
